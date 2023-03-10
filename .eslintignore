@@ -1,0 +1,6 @@
+database/**/**
+dist
+src/**/*.js
+src/**/**/*.js
+src/**/*/*.js
+node_modules

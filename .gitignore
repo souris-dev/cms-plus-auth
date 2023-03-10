@@ -1,0 +1,8 @@
+node_modules
+src/**/*.js
+src/*.js
+src/**/**/*.js
+dist
+db
+.db
+coverage
