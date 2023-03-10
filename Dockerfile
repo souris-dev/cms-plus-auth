@@ -12,5 +12,6 @@ COPY . .
 COPY database ./database
 
 RUN npm run build
+COPY database ./dist/database
 
-ENTRYPOINT [ "node", "/app/dist/app.js" ]
+ENTRYPOINT [ "node", "/app/dist/src/app.js" ]
